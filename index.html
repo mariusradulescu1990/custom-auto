@@ -4,14 +4,14 @@
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
 
-  <title>Custom Automotive | Service Auto București Sector 6</title>
+  <title>Custom Automotive | Service Multimarcă Specializat Ford</title>
 
   <meta
     name="description"
-    content="Custom Automotive - service auto profesionist în București Sector 6. Diagnoză, mecanică, revizii, distribuții, electrică auto și programări rapide."
+    content="Custom Automotive - service auto multimarcă în București Sector 6, specializat Ford. Diagnoză, mecanică, distribuții, electrică auto și programări rapide."
   />
 
-  <meta name="theme-color" content="#f2c230"/>
+  <meta name="theme-color" content="#003478"/>
 
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -25,27 +25,25 @@
 
     :root {
 
-      --black: #050505;
-      --dark: #0d0d0d;
-      --dark-2: #151515;
-      --card: #1c1c1c;
+      --black: #030712;
+      --dark: #07111f;
+      --dark-2: #0b1f35;
+      --card: #102742;
 
-      --yellow: #f2c230;
-      --yellow-dark: #dca800;
-
-      --red: #d71920;
-      --red-dark: #af1016;
+      --ford-blue: #003478;
+      --ford-blue-light: #0072ce;
+      --ford-blue-soft: #29b6ff;
 
       --white: #ffffff;
-      --muted: #a8a8a8;
+      --muted: #b7c7db;
 
-      --line: rgba(255,255,255,.08);
+      --line: rgba(255,255,255,.10);
 
       --radius: 24px;
 
       --shadow:
         0 10px 30px rgba(0,0,0,.25),
-        0 24px 80px rgba(0,0,0,.45);
+        0 24px 80px rgba(0,52,120,.35);
 
     }
 
@@ -63,8 +61,8 @@
       font-family:'Inter',sans-serif;
       background:var(--black);
       color:var(--white);
-      overflow-x:hidden;
       line-height:1.6;
+      overflow-x:hidden;
     }
 
     a{
@@ -86,8 +84,8 @@
       background:#000;
       border-bottom:1px solid var(--line);
       padding:12px 0;
-      font-size:14px;
       color:var(--muted);
+      font-size:14px;
     }
 
     .topbar .container{
@@ -101,7 +99,7 @@
       position:sticky;
       top:0;
       z-index:999;
-      background:rgba(5,5,5,.92);
+      background:rgba(3,7,18,.92);
       backdrop-filter:blur(12px);
       border-bottom:1px solid var(--line);
     }
@@ -123,22 +121,26 @@
     }
 
     .logo-box{
+
       width:48px;
       height:48px;
+
       border-radius:16px;
 
       background:
         linear-gradient(
           135deg,
-          var(--yellow),
-          var(--red)
+          var(--ford-blue-light),
+          var(--ford-blue)
         );
 
       display:grid;
       place-items:center;
 
-      color:#111;
+      color:white;
+
       font-weight:900;
+
       box-shadow:var(--shadow);
     }
 
@@ -150,19 +152,24 @@
     }
 
     .nav-links a:hover{
-      color:var(--white);
+      color:white;
     }
 
     .btn{
       border:0;
       cursor:pointer;
+
       display:inline-flex;
-      align-items:center;
       justify-content:center;
+      align-items:center;
       gap:10px;
+
       padding:14px 22px;
+
       border-radius:999px;
+
       transition:.25s;
+
       font-weight:800;
       font-size:15px;
     }
@@ -176,11 +183,11 @@
       background:
         linear-gradient(
           135deg,
-          var(--yellow),
-          var(--red)
+          var(--ford-blue-light),
+          var(--ford-blue)
         );
 
-      color:#111;
+      color:white;
     }
 
     .btn-primary:hover{
@@ -188,14 +195,14 @@
       background:
         linear-gradient(
           135deg,
-          var(--yellow-dark),
-          var(--red-dark)
+          #1595ff,
+          #00295e
         );
     }
 
     .btn-outline{
       border:1px solid var(--line);
-      color:var(--white);
+      color:white;
       background:rgba(255,255,255,.03);
     }
 
@@ -213,6 +220,7 @@
     }
 
     .hero{
+
       position:relative;
       overflow:hidden;
 
@@ -221,8 +229,9 @@
         90px;
 
       background:
-        radial-gradient(circle at 80% 20%, rgba(242,194,48,.14), transparent 26%),
-        radial-gradient(circle at 10% 20%, rgba(215,25,32,.12), transparent 28%);
+        radial-gradient(circle at 80% 20%, rgba(0,114,206,.22), transparent 28%),
+        radial-gradient(circle at 10% 20%, rgba(41,182,255,.14), transparent 30%),
+        var(--black);
     }
 
     .hero-grid{
@@ -233,6 +242,7 @@
     }
 
     .badge{
+
       display:inline-flex;
       align-items:center;
       gap:10px;
@@ -261,11 +271,12 @@
     }
 
     .hero h1 span{
+
       background:
         linear-gradient(
           135deg,
-          var(--yellow),
-          var(--red)
+          white,
+          var(--ford-blue-soft)
         );
 
       -webkit-background-clip:text;
@@ -313,8 +324,8 @@
     .hero-card{
       background:var(--card);
       border-radius:var(--radius);
-      border:1px solid var(--line);
       overflow:hidden;
+      border:1px solid var(--line);
       box-shadow:var(--shadow);
     }
 
@@ -328,8 +339,8 @@
       align-items:flex-end;
 
       background:
-        linear-gradient(rgba(0,0,0,.25), rgba(0,0,0,.9)),
-        url("https://images.unsplash.com/photo-1489824904134-891ab64532f1?q=80&w=1600&auto=format&fit=crop")
+        linear-gradient(rgba(0,0,0,.2), rgba(0,0,0,.9)),
+        url("https://images.unsplash.com/photo-1492144534655-ae79c964c9d7?q=80&w=1600&auto=format&fit=crop")
         center/cover;
     }
 
@@ -349,7 +360,7 @@
     }
 
     .eyebrow{
-      color:var(--yellow);
+      color:var(--ford-blue-soft);
       text-transform:uppercase;
       letter-spacing:.16em;
       font-size:13px;
@@ -385,23 +396,22 @@
 
     .card:hover{
       transform:translateY(-6px);
-      border-color:rgba(242,194,48,.25);
+      border-color:rgba(41,182,255,.35);
     }
 
     .icon{
+
       width:56px;
       height:56px;
+
       border-radius:18px;
 
-      background:
-        linear-gradient(
-          135deg,
-          rgba(242,194,48,.15),
-          rgba(215,25,32,.14)
-        );
+      background:rgba(0,114,206,.16);
 
       display:grid;
       place-items:center;
+
+      color:var(--ford-blue-soft);
 
       font-size:24px;
 
@@ -420,7 +430,7 @@
 
     .about{
       background:
-        radial-gradient(circle at 90% 20%, rgba(242,194,48,.08), transparent 30%),
+        radial-gradient(circle at 90% 20%, rgba(0,114,206,.10), transparent 30%),
         var(--dark);
     }
 
@@ -432,14 +442,16 @@
     }
 
     .quote{
+
       padding:38px;
+
       border-radius:var(--radius);
 
       background:
         linear-gradient(
           135deg,
-          rgba(242,194,48,.10),
-          rgba(215,25,32,.08)
+          rgba(0,114,206,.16),
+          rgba(41,182,255,.08)
         );
 
       border:1px solid var(--line);
@@ -477,22 +489,19 @@
     }
 
     .list-item::before{
+
       content:"✓";
 
       width:28px;
       height:28px;
+
       flex:0 0 28px;
 
       border-radius:50%;
 
-      background:
-        linear-gradient(
-          135deg,
-          rgba(242,194,48,.22),
-          rgba(215,25,32,.18)
-        );
+      background:rgba(0,114,206,.18);
 
-      color:var(--yellow);
+      color:var(--ford-blue-soft);
 
       display:grid;
       place-items:center;
@@ -502,11 +511,12 @@
 
     .career{
       background:
-        radial-gradient(circle at 80% 10%, rgba(215,25,32,.10), transparent 30%),
+        radial-gradient(circle at 80% 10%, rgba(0,114,206,.10), transparent 30%),
         var(--dark);
     }
 
     .career-box{
+
       display:grid;
       grid-template-columns:1fr auto;
       gap:30px;
@@ -519,8 +529,8 @@
       background:
         linear-gradient(
           135deg,
-          rgba(242,194,48,.10),
-          rgba(215,25,32,.08)
+          rgba(0,114,206,.14),
+          rgba(41,182,255,.06)
         );
 
       border:1px solid var(--line);
@@ -528,9 +538,9 @@
 
     .career-box h3{
       font-size:34px;
-      margin-bottom:10px;
       line-height:1.08;
       letter-spacing:-.04em;
+      margin-bottom:10px;
     }
 
     .career-box p{
@@ -546,13 +556,13 @@
 
     .review{
       background:var(--card);
-      border:1px solid var(--line);
       border-radius:var(--radius);
+      border:1px solid var(--line);
       padding:30px;
     }
 
     .stars{
-      color:var(--yellow);
+      color:var(--ford-blue-soft);
       margin-bottom:18px;
       letter-spacing:2px;
     }
@@ -564,7 +574,7 @@
 
     .booking{
       background:
-        radial-gradient(circle at 80% 10%, rgba(242,194,48,.10), transparent 26%),
+        radial-gradient(circle at 80% 10%, rgba(0,114,206,.10), transparent 28%),
         var(--dark);
     }
 
@@ -595,7 +605,7 @@
     input:focus,
     select:focus,
     textarea:focus{
-      border-color:var(--yellow);
+      border-color:var(--ford-blue-soft);
     }
 
     select option{
@@ -621,22 +631,20 @@
     }
 
     .contact-icon{
+
       width:48px;
       height:48px;
+
       border-radius:16px;
 
-      background:
-        linear-gradient(
-          135deg,
-          rgba(242,194,48,.15),
-          rgba(215,25,32,.12)
-        );
+      background:rgba(0,114,206,.18);
 
       display:grid;
       place-items:center;
 
+      color:var(--ford-blue-soft);
+
       font-weight:900;
-      color:var(--yellow);
     }
 
     .map{
@@ -655,8 +663,8 @@
 
     footer{
       background:#000;
-      padding:42px 0;
       border-top:1px solid var(--line);
+      padding:42px 0;
       color:var(--muted);
     }
 
@@ -697,11 +705,11 @@
       background:
         linear-gradient(
           135deg,
-          var(--yellow),
-          var(--red)
+          var(--ford-blue-light),
+          var(--ford-blue)
         );
 
-      color:#111;
+      color:white;
     }
 
     @media(max-width:980px){
@@ -718,12 +726,13 @@
       }
 
       .nav-links{
+
         position:fixed;
         top:84px;
         left:0;
         right:0;
 
-        background:#050505;
+        background:#030712;
 
         padding:24px;
 
@@ -775,7 +784,9 @@
 <body>
 
   <div class="topbar">
+
     <div class="container">
+
       <span>
         📍 Bd. Precizei 12B, Sector 6, București
       </span>
@@ -783,7 +794,9 @@
       <span>
         ☎ 0737 531 955 · ✉ office@customautomotive.ro
       </span>
+
     </div>
+
   </div>
 
   <header>
@@ -843,18 +856,19 @@
         <div>
 
           <div class="badge">
-            ⭐ Service Auto Profesionist în Sector 6
+            ⭐ Service Multimarcă Specializat Ford · Sector 6 București
           </div>
 
           <h1>
             Service auto
-            <span>premium</span>
-            pentru oameni care își respectă mașina.
+            <span>multimarcă</span>
+            cu experiență puternică pe Ford.
           </h1>
 
           <p>
-            Diagnoză, mecanică, distribuții, revizii și electrică auto.
-            Lucrăm transparent, comunicăm clar și reparăm logic.
+            Diagnoză, mecanică, distribuții, electrică auto și întreținere completă
+            pentru toate mărcile, cu specializare pe Ford:
+            Focus, Fiesta, Mondeo, Kuga, Transit și EcoBoost.
           </p>
 
           <div class="hero-actions">
@@ -890,8 +904,8 @@
             </div>
 
             <div class="stat">
-              <strong>Rapid</strong>
-              <span>programări și diagnoză</span>
+              <strong>Ford</strong>
+              <span>specializare principală</span>
             </div>
 
           </div>
@@ -903,9 +917,9 @@
           <div class="hero-image">
 
             <h2>
-              Diagnoză corectă.
-              Reparații curate.
-              Fără improvizații.
+              Multimarcă.
+              Dar când vine vorba de Ford,
+              știm platforma în detaliu.
             </h2>
 
           </div>
@@ -927,11 +941,12 @@
           </div>
 
           <h2>
-            Tot ce are nevoie mașina ta.
+            Service complet pentru orice marcă.
           </h2>
 
           <p>
-            Lucrări executate profesionist și explicații clare înainte de orice reparație.
+            Lucrăm multimarcă, însă experiența acumulată pe Ford ne permite
+            să diagnosticăm și să reparăm rapid probleme specifice platformelor Ford.
           </p>
 
         </div>
@@ -945,11 +960,29 @@
             </div>
 
             <h3>
-              Diagnoză Auto
+              Diagnoză Multimarcă
             </h3>
 
             <p>
-              Identificare rapidă erori, probleme electrice și defecte greu de diagnosticat.
+              Diagnoză profesională pentru Ford, Volkswagen, BMW,
+              Audi, Mercedes, Renault, Opel și alte mărci.
+            </p>
+
+          </div>
+
+          <div class="card">
+
+            <div class="icon">
+              ⚙️
+            </div>
+
+            <h3>
+              Specializare Ford
+            </h3>
+
+            <p>
+              Experiență puternică pe Focus, Fiesta, Mondeo,
+              Kuga, Transit și motorizări EcoBoost / TDCi.
             </p>
 
           </div>
@@ -965,55 +998,7 @@
             </h3>
 
             <p>
-              Schimb ulei, filtre și verificări generale pentru funcționare optimă.
-            </p>
-
-          </div>
-
-          <div class="card">
-
-            <div class="icon">
-              ⚙️
-            </div>
-
-            <h3>
-              Distribuții
-            </h3>
-
-            <p>
-              Înlocuire curea sau lanț distribuție cu montaj corect și verificări complete.
-            </p>
-
-          </div>
-
-          <div class="card">
-
-            <div class="icon">
-              🛞
-            </div>
-
-            <h3>
-              Frâne & Suspensie
-            </h3>
-
-            <p>
-              Discuri, plăcuțe, amortizoare, bucșe și verificări de siguranță.
-            </p>
-
-          </div>
-
-          <div class="card">
-
-            <div class="icon">
-              🔋
-            </div>
-
-            <h3>
-              Electrică Auto
-            </h3>
-
-            <p>
-              Alternator, baterie, senzori, instalații electrice și diagnoză avansată.
+              Ulei, filtre și verificări complete pentru exploatare sigură și fiabilă.
             </p>
 
           </div>
@@ -1029,7 +1014,42 @@
             </h3>
 
             <p>
-              Motor, turbo, răcire, ambreiaj și reparații complexe.
+              Ambreiaj, distribuții, motor, turbo,
+              răcire, EGR și reparații complexe.
+            </p>
+
+          </div>
+
+          <div class="card">
+
+            <div class="icon">
+              🔋
+            </div>
+
+            <h3>
+              Electrică Auto
+            </h3>
+
+            <p>
+              Probleme electrice, senzori, alternator,
+              baterie, module și instalații.
+            </p>
+
+          </div>
+
+          <div class="card">
+
+            <div class="icon">
+              🚐
+            </div>
+
+            <h3>
+              Utilitare & Flote
+            </h3>
+
+            <p>
+              Întreținere și reparații pentru Transit,
+              utilitare și mașini de flotă.
             </p>
 
           </div>
@@ -1047,12 +1067,14 @@
         <div class="quote">
 
           <strong>
-            Nu schimbăm piese „după ureche”.
+            Multimarcă, dar cu ADN Ford.
           </strong>
 
           <p>
-            Verificăm corect, explicăm transparent și reparăm doar ceea ce este necesar.
-            Un service bun înseamnă logică, experiență și respect pentru client.
+            Lucrăm pe majoritatea mărcilor auto,
+            însă experiența noastră cea mai puternică este pe Ford.
+            Cunoaștem problemele comune, platformele și motorizările
+            care necesită atenție specială.
           </p>
 
         </div>
@@ -1064,25 +1086,25 @@
           </div>
 
           <h2>
-            Experiență mai bună pentru tine și mașina ta.
+            Service modern cu experiență reală.
           </h2>
 
           <div class="list">
+
+            <div class="list-item">
+              Specializare puternică pe Ford și EcoBoost.
+            </div>
 
             <div class="list-item">
               Diagnoză logică și explicații clare.
             </div>
 
             <div class="list-item">
-              Programări rapide prin telefon sau WhatsApp.
+              Programări rapide prin telefon și WhatsApp.
             </div>
 
             <div class="list-item">
-              Atelier curat și organizat.
-            </div>
-
-            <div class="list-item">
-              Lucrări executate atent și profesionist.
+              Atelier curat și lucrări executate atent.
             </div>
 
           </div>
@@ -1320,7 +1342,7 @@
         </strong>
 
         <p>
-          Service Auto Profesionist · Sector 6 București
+          Service Multimarcă Specializat Ford · Sector 6 București
         </p>
 
       </div>
